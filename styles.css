@@ -1,0 +1,45 @@
+body {
+    font-family:"Inconsolata";
+    font-size:22px;
+}
+
+table { 
+    text-align: center; 
+    line-height: 200%;
+}
+
+
+h3 {
+    color:coral;
+    font-size:30px;
+    font-weight:bold;
+}
+
+p {
+    font-weight:bold;
+    text-indent:50px;
+}
+
+.sup_element {
+    color:red;
+}
+
+.first-class {
+    color:red;
+}
+
+h1 {
+    color:#871561;
+}
+
+.third-class {
+    color:red;
+}
+
+#first-id {
+    color:blue;
+}
+
+footer strong {
+    text-decoration: underline wavy #7deb34;
+}
