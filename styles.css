@@ -1,13 +1,29 @@
 body {
-    font-family:"Inconsolata";
-    font-size:22px;
+    font-family: "Inconsolata";
+    font-size: 22px;
+    /* margin-left: 100px;
+    margin-top: 100px;
+    background-image: url(https://picsum.photos/200/300?grayscale); */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 table { 
     text-align: center; 
     line-height: 200%;
+    width: 300px;
+    height: 200px;
+    border: solid black;
+    border-collapse: collapse;
 }
 
+mark {
+    border-radius: 5px;
+}
 
 h3 {
     color:coral;
@@ -17,7 +33,7 @@ h3 {
 
 p {
     font-weight:bold;
-    text-indent:50px;
+    
 }
 
 .sup_element {
@@ -42,4 +58,26 @@ h1 {
 
 footer strong {
     text-decoration: underline wavy #7deb34;
+}
+
+div#main-content {
+    background-color: #CACACA;
+    padding: 20px;
+    border-style: solid;
+    display: flex;
+    flex-direction: reverse;
+}
+
+
+#articles {
+    flex-grow: 1;
+}
+#skills {
+    flex-grow: 1;
+    /* align-self: center; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
 }
